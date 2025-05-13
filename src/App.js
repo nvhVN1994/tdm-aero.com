@@ -19,13 +19,16 @@ import PlatformsPage from './Pages/PlatformsPage';
 import FighterPage from './Pages/FighterPage';
 import TransportPage from './Pages/TransportPage';
 import PatrolPage from './Pages/PatrolPage';
-import RotorcraftPage from './Pages/RotorcraftPage';
+import RotorCraftPage from './Pages/RotorCraftPage';
 
 import OEMPartnersPage from './Pages/OEMPartnersPage';
 import TradeShowsPage from './Pages/TradeShowsPage';
 import ContactPage from './Pages/ContactPage';
 import FeedbackPage from './Pages/FeedbackPage';
 import PortalPage from './Pages/PortalPage';
+
+import TermsAndConditions from './Pages/TermsAndConditions';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -54,7 +57,7 @@ function App() {
     <Route path="/platforms/fighter" element={<FighterPage />} />
     <Route path="/platforms/transport" element={<TransportPage />} />
     <Route path="/platforms/patrol" element={<PatrolPage />} />
-    <Route path="/platforms/rotorcraft" element={<RotorcraftPage />} />
+    <Route path="/platforms/rotorCraft" element={<RotorCraftPage />} />
 
     {/* OTHER ROUTES */}
     <Route path="/oem-partners" element={<OEMPartnersPage />} />
@@ -62,6 +65,8 @@ function App() {
     <Route path="/contact" element={<ContactPage />} />
     <Route path="/contact/feedback" element={<FeedbackPage />} />
     <Route path="/portal" element={<PortalPage />} />
+    <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+    <Route path="/privacy-policy" element={<PrivacyPolicy />} />
   </Routes>
 </Router>
 

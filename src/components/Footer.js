@@ -2,6 +2,8 @@
 import { FaFacebookF, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import BackToTopButton from '../components/BackToTopButton';
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
   return (
     <footer className="bg-[#1D1D1D] text-white px-16 xl:px-32 py-10 mt-16 font-['Roboto_Condensed']">
@@ -73,14 +75,15 @@ export default function Footer() {
      <p className="leading-relaxed">
         Copyright © 2025 TDM TRADING & INVESTMENT JSC
      </p>
-    <div className="flex space-x-6 ml-auto ">
-    <a href="javascript:void(0)" className="hover:underline hover:text-[#22BDB6]">
-      Terms and Conditions
-    </a>
-    <a href="javascript:void(0)" className="hover:underline hover:text-[#22BDB6]">
-      Privacy Policy
-    </a>
-      </div>
+    <div className="flex space-x-6 ml-auto">
+    <Link to="/terms" className="hover:underline hover:text-[#22BDB6]">
+    Terms and Conditions
+   </Link>
+   <Link to="/privacy" className="hover:underline hover:text-[#22BDB6]">
+    Privacy Policy
+    </Link>
+</div>
+
     </div>
 <BackToTopButton />
     </footer>
