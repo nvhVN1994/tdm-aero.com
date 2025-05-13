@@ -57,7 +57,7 @@ function App() {
     <Route path="/platforms/fighter" element={<FighterPage />} />
     <Route path="/platforms/transport" element={<TransportPage />} />
     <Route path="/platforms/patrol" element={<PatrolPage />} />
-    <Route path="/platforms/rotorCraft" element={<RotorCraftPage />} />
+    <Route path="/platforms/rotorcraft" element={<RotorCraftPage />} />
 
     {/* OTHER ROUTES */}
     <Route path="/oem-partners" element={<OEMPartnersPage />} />
