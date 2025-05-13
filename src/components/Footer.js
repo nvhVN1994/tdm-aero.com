@@ -74,10 +74,10 @@ export default function Footer() {
         Copyright © 2025 TDM TRADING & INVESTMENT JSC
      </p>
     <div className="flex space-x-6 ml-auto ">
-    <a href="#" className="hover:underline hover:text-[#22BDB6]">
+    <a href="javascript:void(0)" className="hover:underline hover:text-[#22BDB6]">
       Terms and Conditions
     </a>
-    <a href="#" className="hover:underline hover:text-[#22BDB6]">
+    <a href="javascript:void(0)" className="hover:underline hover:text-[#22BDB6]">
       Privacy Policy
     </a>
       </div>
