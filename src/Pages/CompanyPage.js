@@ -1,12 +1,15 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import Breadcrumb from '../components/Breadcrumb';
-import About1 from '../assets/images/About1.jpg';
-
+import Footer from '../components/Footer';
+import About1 from '../assets/images/About/About1.jpg';
+import About2 from '../assets/images/About/About2.JPG';
+import MapChart from '../assets/images/About/MapChart.png';
+import About3 from '../assets/images/About/About3.jpg';
+import About4 from '../assets/images/About/About4.jpg';
 export default function CompanyPage() {
   return (
     <div className="min-h-screen bg-white text-black font-['Roboto_Condensed']">
-      <NavBar />
+      
 
       <main className="pt-[115px]"> {/* Giữ khoảng cách với NavBar fixed */}
         <Breadcrumb />
@@ -25,7 +28,7 @@ export default function CompanyPage() {
           <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">HISTORY</h3>
-              <p className="text-sm xl:text-[18px] leading-relaxed">
+              <p className="text-sm xl:text-[18px] leading-relaxed  ">
                 Founded in 2016, TDM Aero is a trusted partner in the aerospace
                 industry, providing comprehensive support solutions for
                 commercial airlines, private jet operators, and military
@@ -52,15 +55,20 @@ export default function CompanyPage() {
             </div>
           </div>
           <img
-            src="/placeholder2.jpg"
-            alt="Placeholder 2"
+            src={About2}
+            alt="photoAbout2"
             className="w-full h-full object-cover"
           />
         </div>
 
                 {/* Section 3: Mission */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="bg-white"></div> {/* Khung trắng bên trái */}
+          
+          <img
+            src={About3}  
+            alt="photoAbout3"
+            className="w-full h-full object-cover"
+          />
           <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">MISSION</h3>
@@ -84,24 +92,29 @@ export default function CompanyPage() {
               </p>
             </div>
           </div>
-          <div className="bg-white"></div> {/* Khung trắng bên phải */}
+          <img
+            src={About4}
+            alt="photoAbout4"
+            className="w-full h-full object-cover"
+          />
         </div>
 
         {/* Section 5: Our Global Presence */}
         <div className="bg-white text-center px-4 py-10">
-          <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4 inline-block border border-black px-4 py-1">
+          <h3 className="text-lg font-semibold mt-2 xl:text-[30px] xl:font-bold xl:mt-4 px-4 py-1">
             OUR GLOBAL PRESENCE
           </h3>
           <div className="mt-8 flex justify-center">
             <img
-              src="/map-placeholder.png"
-              alt="Global Map"
-              className="w-full max-w-4xl object-contain"
+              src={MapChart}
+            alt="Map Chart"
+              className="w-full max-w-[1240px] object-contain"
             />
           </div>
         </div>
 
       </main>
+      <Footer />
     </div>
   );
 }

@@ -33,11 +33,16 @@ export default function Footer() {
         </span>
       </div>
       <div className="text-white text-sm flex items-start gap-2">
-        <FaMapMarkerAlt className="text-white mt-1" />
-        <span>
-          Unit 14, Lot 4, Cienco 5 Urban Area, Me Linh, Hanoi, Vietnam
-        </span>
-      </div>
+  <FaMapMarkerAlt className="text-white mt-1" />
+  <a
+    href="https://www.google.com/maps/place/TDM+Group+-+Representative+office/@21.164815,105.7526745,107m/data=!3m1!1e3!4m6!3m5!1s0x3134ffed144dfc8d:0xbd18afd7f46429c7!8m2!3d21.1648136!4d105.7524736!16s%2Fg%2F11sg2m358b?entry=ttu&g_ep=EgoyMDI1MDUxMS4wIKXMDSoASAFQAw%3D%3D"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#22BDB6]"
+  >
+    Unit 14, Lot 4, Cienco 5 Urban Area, Me Linh, Hanoi, Vietnam
+  </a>
+</div>
     </div>
 
 {/* Office locations */}
@@ -52,22 +57,41 @@ export default function Footer() {
         </div>
       </div>
                 {/* Social Icons */}
-        <div>
-          <h3 className="text-[#22BDB6] mb-3 uppercase font-bold">Connect with Us</h3>
-          <div className="flex space-x-4">
-            <div className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6]">
-              <FaFacebookF />
-            </div>
-            
-            <div className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6]">
-              <FaLinkedinIn /> 
-            </div>
-            <div className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6]">
-              <FaWhatsapp />
-          </div>
-        </div>
-        
-      </div>
+       <div>
+  <h3 className="text-[#22BDB6] mb-3 uppercase font-bold">Connect with Us</h3>
+  <div className="flex space-x-4">
+    {/* Facebook */}
+    <a
+      href="https://www.facebook.com/profile.php?id=61557710257628"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6] transition"
+    >
+      <FaFacebookF />
+    </a>
+
+    {/* LinkedIn */}
+    <a
+      href="https://linkedin.com/company/tdmgroup"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6] transition"
+    >
+      <FaLinkedinIn />
+    </a>
+
+    {/* WhatsApp */}
+    <a
+      href="https://wa.me/84961027031"  // thay số bằng số thật của bạn
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6] transition"
+    >
+      <FaWhatsapp />
+    </a>
+  </div>
+</div>
+
         
     </div>
         

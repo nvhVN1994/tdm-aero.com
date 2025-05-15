@@ -29,6 +29,7 @@ import PortalPage from './Pages/PortalPage';
 
 import TermsAndConditions from './Pages/TermsAndConditions';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
+import RequestAQuote from './Pages/RequestAQuote';
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
     <Route path="/portal" element={<PortalPage />} />
     <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+    <Route path="/request-a-quote" element={<RequestAQuote />} />
   </Routes>
 </Router>
 

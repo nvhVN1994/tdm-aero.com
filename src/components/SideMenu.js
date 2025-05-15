@@ -12,7 +12,7 @@ const SideMenu = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed top-0 right-0 w-[300px] max-w-full h-full bg-black text-white z-50 transition-transform duration-300 ease-in-out ${
+      className={`fixed top-0 right-0 w-[300px] max-w-full h-full bg-black text-white font-['Roboto_Condensed'] z-50 transition-transform duration-300 ease-in-out ${
         isOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
@@ -108,24 +108,46 @@ const SideMenu = ({ isOpen, onClose }) => {
 
         {/* Footer (action + social) */}
         <div className="mt-8 space-y-6">
-          <button className="w-full border hover:bg-[#22BDB6] border-white rounded-full py-2 uppercase text-sm mb-6">
+          <Link to="/request-a-quote"
+           className=" border flex items-center justify-center hover:bg-[#22BDB6] border-white rounded-full py-2 uppercase text-sm px-4 mt-4 mb-4 ml-10 mr-10">
             Request A Quote
-          </button>
+          </Link>
 
           <div>
-            <h3 className="text-[#22BDB6] mb-2 uppercase font-medium text-sm">Connect with Us</h3>
-            <div className="flex gap-6 mb-12">
-              <div className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6]">
-                <FaFacebookF />
-              </div>
-              <div className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6]">
-                <FaLinkedinIn />
-              </div>
-              <div className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6]">
-                <FaWhatsapp />
-              </div>
-            </div>
-          </div>
+  <h3 className="text-[#22BDB6] mb-2 uppercase font-medium text-sm">Connect with Us</h3>
+  <div className="flex gap-6 mb-12">
+    {/* Facebook */}
+    <a
+      href="https://www.facebook.com/profile.php?id=61557710257628"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6] transition"
+    >
+      <FaFacebookF />
+    </a>
+
+    {/* LinkedIn */}
+    <a
+      href="https://linkedin.com/company/tdmgroup"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6] transition"
+    >
+      <FaLinkedinIn />
+    </a>
+
+    {/* WhatsApp */}
+    <a
+      href="https://wa.me/84961027031"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-3 border rounded-full cursor-pointer hover:bg-[#22BDB6] transition"
+    >
+      <FaWhatsapp />
+    </a>
+  </div>
+</div>
+
         </div>
       </div>
     </div>

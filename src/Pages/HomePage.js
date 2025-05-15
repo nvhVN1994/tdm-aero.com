@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function HomePage() {
   return (
@@ -29,10 +31,13 @@ export default function HomePage() {
 
       
       <div className="absolute bottom-16 left-16">
-        <button className="border border-black text-black px-6 py-2 rounded-full text-[10px] xl:text-[16px] 2xl:text-xl hover:bg-[#22BDB6] transition">
-          REQUEST A QUOTE
-        </button>
-      </div>
+  <Link
+    to="/request-a-quote"
+    className="border border-black text-black px-6 py-2 rounded-full text-[10px] xl:text-[16px] 2xl:text-xl hover:bg-[#22BDB6] transition"
+  >
+    REQUEST A QUOTE
+  </Link>
+</div>
     </div>    
     );
 }

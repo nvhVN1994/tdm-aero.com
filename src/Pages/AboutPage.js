@@ -1,16 +1,15 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
-import About1 from '../assets/images/About1.jpg';
-import About2 from '../assets/images/About2.JPG';
-import MapChart from '../assets/images/MapChart.png';
-import About3 from '../assets/images/About3.jpg';
-import About4 from '../assets/images/About4.jpg';
-export default function CompanyPage() {
+import About1 from '../assets/images/About/About1.jpg';
+import About2 from '../assets/images/About/About2.JPG';
+import MapChart from '../assets/images/About/MapChart.png';
+import About3 from '../assets/images/About/About3.jpg';
+import About4 from '../assets/images/About/About4.jpg';
+export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white text-black font-['Roboto_Condensed']">
-      <NavBar />
+     
 
       <main className="pt-[115px]"> {/* Giữ khoảng cách với NavBar fixed */}
         <Breadcrumb />
