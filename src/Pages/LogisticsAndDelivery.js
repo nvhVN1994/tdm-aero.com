@@ -1,9 +1,9 @@
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
-import So1 from '../assets/images/WhatWeDo/Solution/So1.png';
+import Lo1 from '../assets/images/WhatWeDo/Lo/Lo1.png';
 
-export default function SolutionsPage() {
+export default function LogisticsAndDeliveryPage() {
   return (
     <div className="min-h-screen bg-white text-black font-['Roboto_Condensed']">
      
@@ -13,30 +13,28 @@ export default function SolutionsPage() {
 
         <div className="bg-white text-center py-8 px-4 text-black">
   <h1 className="text-2xl sm:text-3xl lg:text-4xl font-medium uppercase mb-2">
-    Solutions
+    Logistics & Delivery
   </h1>
 
   <p className="max-w-5xl mx-auto text-xl font-medium sm:text-base leading-relaxed mt-4">
-   TDM Aero has significant industry experience, market knowledge and technical understanding to meet the expectations 
-   of both our customers and the OEMs. Our approach is strategically designed to satisfy these needs and results in personalized 
-   solutions for our customers.
-  </p>
+   
+     </p>
 </div>
 
         {/* Section 1: History */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           <img
-            src={So1}
+            src={Lo1}
             alt="photoAbout1"
             className="w-full h-full object-cover"
           />
           <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
             <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">DISTRIBUTION</h3>
+              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">LOGISTICS SUPPORT</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed  ">
-                TDM Aero is a trusted distributor of mission-critical equipment for Search & Rescue (SAR), defense, 
-                and special operations aviation programs worldwide. We supply and support advanced systems designed to 
-                enhance safety, visibility, and operational effectiveness across a wide range of aircraft platforms.
+                At TDM Aero, we provide complete logistics solutions to ensure that every part, system, or component reaches our customers safely, 
+                on time, and in full compliance with regulatory requirements. Our team handles the complex processes behind the scenes so our clients 
+                can focus on operations.
               </p>
             </div>
           </div>
@@ -46,16 +44,17 @@ export default function SolutionsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
             <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">SEARCH & RESCUE EQUIPMENT SUPPLY</h3>
+              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">CUSTOMS HANDLING & IMPORT/EXPORT</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
-                We provide a comprehensive range of SAR equipment including searchlights, landing lights, loudspeakers, 
-                hoist rescue systems, and tactical parachutes — all sourced from leading global manufacturers.
+                We manage all aspects of customs clearance and import/export operations, ensuring smooth cross-border 
+                movement of aviation and defense equipment. Our experience with international shipping regulations allows us to navigate 
+                documentation, tariffs, and compliance efficiently.
 
               </p>
             </div>
           </div>
           <img
-            src={So1}
+            src={Lo1}
             alt="photoAbout2"
             className="w-full h-full object-cover"
           />
@@ -65,16 +64,16 @@ export default function SolutionsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           
           <img
-            src={So1}  
+            src={Lo1}  
             alt="photoAbout3"
             className="w-full h-full object-cover"
           />
           <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
             <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">NIGHT VISION & SYSTEMS INTEGRATION</h3>
+              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">EXPORT PERMIT APPLICATIONS</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
-                Our distribution capability extends to military-grade Night Vision Goggles (NVGs) and the integration of these systems into 
-                rotary and fixed-wing aircraft. We work closely with operators and OEMs to ensure seamless compatibility and mission readiness.
+                For controlled or military-grade items, we support clients by preparing and submitting export permit applications, 
+                coordinating with local and international authorities to ensure legal and timely approval.
               </p>
             </div>
           </div>
@@ -84,16 +83,18 @@ export default function SolutionsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
             <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">GLOBAL PROJECT SUPPORT</h3>
+              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">DELIVERY TO DOOR</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
-                From initial sourcing to end-user delivery, TDM Aero supports SAR and defense projects across multiple regions.
-                 Our team ensures technical alignment, export compliance, and full lifecycle support — helping operators execute critical 
-                 missions safely and effectively.
+                We offer door-to-door delivery services, coordinating with freight and logistics partners to ensure parts and equipment 
+                arrive safely at the final destination — whether it's a hangar, airbase, or repair facility.
+TDM Aero combines aviation expertise with logistical precision to ensure that the right products arrive where and when 
+they’re needed — no delays, no compliance issues.
+
               </p>
             </div>
           </div>
           <img
-            src={So1}
+            src={Lo1}
             alt="photoAbout4"
             className="w-full h-full object-cover"
           />

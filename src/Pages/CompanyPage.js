@@ -14,7 +14,7 @@ export default function CompanyPage() {
       <main className="pt-[115px]"> {/* Giữ khoảng cách với NavBar fixed */}
         <Breadcrumb />
 
-        <h2 className="text-center text-2xl xl:text-[38px] font-medium mb-8 mt-8">
+        <h2 className="text-center text-2xl xl:text-4xl font-medium mb-8 mt-8">
           ABOUT OUR COMPANY
         </h2>
 

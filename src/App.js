@@ -14,6 +14,7 @@ import WhatWeDoPage from './Pages/WhatWeDoPage';
 import SparesPage from './Pages/SparesPage';
 import ServicesPage from './Pages/ServicesPage';
 import SolutionsPage from './Pages/SolutionsPage';
+import LogisticsAndDeliveryPage from './Pages/LogisticsAndDelivery';
 
 import PlatformsPage from './Pages/PlatformsPage';
 import FighterPage from './Pages/FighterPage';
@@ -52,6 +53,7 @@ function App() {
     <Route path="/what-we-do/spares" element={<SparesPage />} />
     <Route path="/what-we-do/services" element={<ServicesPage />} />
     <Route path="/what-we-do/solutions" element={<SolutionsPage />} />
+    <Route path="/what-we-do/logistics-and-delivery" element={<LogisticsAndDeliveryPage />} />
 
     {/* PLATFORMS */}
     <Route path="/platforms" element={<PlatformsPage />} />
