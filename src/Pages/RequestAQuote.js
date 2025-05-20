@@ -45,7 +45,7 @@ const RequestAQuote = () => {
     }
 
     try {
-      const response = await fetch('https://tdm-aero-com-backend.onrender.com', {
+      const response = await fetch('https://tdm-aero-com-backend.onrender.com/api/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...formData, recaptchaToken: captchaToken }),
