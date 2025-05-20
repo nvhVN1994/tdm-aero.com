@@ -57,10 +57,11 @@ export default function NavBar() {
         <div className="relative group">
           <Link to="/platforms" className="px-1 py-1 2xl:px-3 2xl:py-2 group-hover:bg-[#22BDB6] transition">PLATFORMS</Link>
           <div className="absolute top-full left-0 hidden group-hover:block bg-white shadow-md border border-[#C0BFC0] w-20 xl:w-40 2xl:w-60">
-            <Link to="/platforms/fighter" className="block px-2 py-1 hover:bg-[#C0BFC0]">FIGHTER</Link>
-            <Link to="/platforms/transport" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">TRANSPORT</Link>
-            <Link to="/platforms/patrol" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">PATROL</Link>
-            <Link to="/platforms/rotorcraft" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">ROTORCRAFT</Link>
+            <Link to="/platforms/civil-aircraft" className="block px-2 py-1 hover:bg-[#C0BFC0]">CIVIL AIRCRAFT</Link>
+            <Link to="/platforms/military-aircraft" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">MILITARY AIRCRAFT</Link>
+            <Link to="/platforms/mission-trainer-and-patrol-aircraft" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">MISSION TRAINER & PATROL AIRCRAFT</Link>
+            <Link to="/platforms/helicopters" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">HELICOPTERS</Link>
+
           </div>
         </div>
 

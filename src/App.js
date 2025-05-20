@@ -17,10 +17,10 @@ import SolutionsPage from './Pages/SolutionsPage';
 import LogisticsAndDeliveryPage from './Pages/LogisticsAndDelivery';
 
 import PlatformsPage from './Pages/PlatformsPage';
-import FighterPage from './Pages/FighterPage';
-import TransportPage from './Pages/TransportPage';
-import PatrolPage from './Pages/PatrolPage';
-import RotorCraftPage from './Pages/RotorCraftPage';
+import CivilPage from './Pages/Civil';
+import MilitaryPage from './Pages/Military';
+import MissionTrainerAndPatrolAircraftPage from './Pages/MissionTrainerAndPatrolAircraft';
+import HelicopterPage from './Pages/Helicopters';
 
 import OEMPartnersPage from './Pages/OEMPartnersPage';
 import TradeShowsPage from './Pages/TradeShowsPage';
@@ -57,11 +57,12 @@ function App() {
 
     {/* PLATFORMS */}
     <Route path="/platforms" element={<PlatformsPage />} />
-    <Route path="/platforms/fighter" element={<FighterPage />} />
-    <Route path="/platforms/transport" element={<TransportPage />} />
-    <Route path="/platforms/patrol" element={<PatrolPage />} />
-    <Route path="/platforms/rotorcraft" element={<RotorCraftPage />} />
-
+    <Route path="/platforms/civil-aircraft" element={<CivilPage />} />
+    <Route path="/platforms/military-aircraft" element={<MilitaryPage />} />
+    <Route path="/platforms/mission-trainer-and-patrol-aircraft" element={<MissionTrainerAndPatrolAircraftPage />} />
+    <Route path="/platforms/helicopters" element={<HelicopterPage />} />
+    
+    
     {/* OTHER ROUTES */}
     <Route path="/oem-partners" element={<OEMPartnersPage />} />
     <Route path="/trade-shows" element={<TradeShowsPage />} />
