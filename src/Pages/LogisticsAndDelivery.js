@@ -2,6 +2,9 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import Lo1 from '../assets/images/WhatWeDo/Lo/Lo1.png';
+import Lo2 from '../assets/images/WhatWeDo/Lo/Lo2.png';
+import Lo3 from '../assets/images/WhatWeDo/Lo/Lo3.png';
+import Lo4 from '../assets/images/WhatWeDo/Lo/Lo4.png';
 
 export default function LogisticsAndDeliveryPage() {
   return (
@@ -54,7 +57,7 @@ export default function LogisticsAndDeliveryPage() {
             </div>
           </div>
           <img
-            src={Lo1}
+            src={Lo2}
             alt="photoAbout2"
             className="w-full h-full object-cover"
           />
@@ -64,7 +67,7 @@ export default function LogisticsAndDeliveryPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           
           <img
-            src={Lo1}  
+            src={Lo3}  
             alt="photoAbout3"
             className="w-full h-full object-cover"
           />
@@ -94,7 +97,7 @@ they’re needed — no delays, no compliance issues.
             </div>
           </div>
           <img
-            src={Lo1}
+            src={Lo4}
             alt="photoAbout4"
             className="w-full h-full object-cover"
           />

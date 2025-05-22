@@ -2,6 +2,9 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import Sp1 from '../assets/images/WhatWeDo/Spares/Sp1.png';
+import Sp2 from '../assets/images/WhatWeDo/Spares/Sp2.png';
+import Sp3 from '../assets/images/WhatWeDo/Spares/Sp3.png';
+import Sp4 from '../assets/images/WhatWeDo/Spares/Sp4.png';
 
 export default function SparesPage() {
   return (
@@ -60,7 +63,7 @@ If others can’t find it — we usually can.
             </div>
           </div>
           <img
-            src={Sp1}
+            src={Sp2}
             alt="photoAbout2"
             className="w-full h-full object-cover"
           />
@@ -70,7 +73,7 @@ If others can’t find it — we usually can.
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           
           <img
-            src={Sp1}  
+            src={Sp3}  
             alt="photoAbout3"
             className="w-full h-full object-cover"
           />
@@ -99,7 +102,7 @@ If others can’t find it — we usually can.
             </div>
           </div>
           <img
-            src={Sp1}
+            src={Sp4}
             alt="photoAbout4"
             className="w-full h-full object-cover"
           />

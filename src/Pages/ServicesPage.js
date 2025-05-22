@@ -2,6 +2,7 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import Se1 from '../assets/images/WhatWeDo/Ser/Se1.png';
+import Se2 from '../assets/images/WhatWeDo/Ser/Se2.png';
 
 export default function ServicesPage() {
   return (
@@ -61,7 +62,7 @@ export default function ServicesPage() {
             </div>
           </div>
           <img
-            src={Se1}
+            src={Se2}
             alt="photoAbout2"
             className="w-full h-full object-cover"
           />

@@ -24,6 +24,7 @@ const initialFormState = {
 
 const RequestAQuote = () => {
   const [formData, setFormData] = useState(initialFormState);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [captchaToken, setCaptchaToken] = useState(null);
   const recaptchaRef = useRef();
 
@@ -43,7 +44,7 @@ const RequestAQuote = () => {
       alert('Please verify you are not a robot.');
       return;
     }
-
+    setIsSubmitting(true);
     try {
       const response = await fetch('https://tdm-aero-com-backend.onrender.com/api/submit-form', {
         method: 'POST',
@@ -138,7 +139,12 @@ const RequestAQuote = () => {
           Submit Request
         </button>
       </form>
-
+      {/* 🔄 Spinner overlay toàn màn hình khi đang gửi */}
+      {isSubmitting && (
+        <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
+        <div className="w-16 h-16 border-4 border-t-transparent border-white rounded-full animate-spin"></div>
+      </div>
+)}
       <Footer />
     </div>
   );

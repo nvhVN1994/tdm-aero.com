@@ -2,6 +2,9 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import So1 from '../assets/images/WhatWeDo/Solution/So1.png';
+import So2 from '../assets/images/WhatWeDo/Solution/So2.png';
+import So3 from '../assets/images/WhatWeDo/Solution/So3.png';
+import So4 from '../assets/images/WhatWeDo/Solution/So4.png';
 
 export default function SolutionsPage() {
   return (
@@ -55,7 +58,7 @@ export default function SolutionsPage() {
             </div>
           </div>
           <img
-            src={So1}
+            src={So2}
             alt="photoAbout2"
             className="w-full h-full object-cover"
           />
@@ -65,7 +68,7 @@ export default function SolutionsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           
           <img
-            src={So1}  
+            src={So3}  
             alt="photoAbout3"
             className="w-full h-full object-cover"
           />
@@ -93,7 +96,7 @@ export default function SolutionsPage() {
             </div>
           </div>
           <img
-            src={So1}
+            src={So4}
             alt="photoAbout4"
             className="w-full h-full object-cover"
           />
