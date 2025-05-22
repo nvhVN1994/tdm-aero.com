@@ -19,7 +19,7 @@ import LogisticsAndDeliveryPage from './Pages/LogisticsAndDelivery';
 import PlatformsPage from './Pages/PlatformsPage';
 import CivilPage from './Pages/Civil';
 import MilitaryPage from './Pages/Military';
-import MissionTrainerAndPatrolAircraftPage from './Pages/MissionTrainerAndPatrolAircraft';
+import MissionTrainerAndPatrolPage from './Pages/MissionTrainerAndPatrol';
 import HelicopterPage from './Pages/Helicopters';
 
 import OEMPartnersPage from './Pages/OEMPartnersPage';
@@ -57,9 +57,9 @@ function App() {
 
     {/* PLATFORMS */}
     <Route path="/platforms" element={<PlatformsPage />} />
-    <Route path="/platforms/civil-aircraft" element={<CivilPage />} />
-    <Route path="/platforms/military-aircraft" element={<MilitaryPage />} />
-    <Route path="/platforms/mission-trainer-and-patrol-aircraft" element={<MissionTrainerAndPatrolAircraftPage />} />
+    <Route path="/platforms/civil" element={<CivilPage />} />
+    <Route path="/platforms/military" element={<MilitaryPage />} />
+    <Route path="/platforms/mission-trainer-and-patrol" element={<MissionTrainerAndPatrolPage />} />
     <Route path="/platforms/helicopters" element={<HelicopterPage />} />
     
     

@@ -52,7 +52,7 @@ const WhatWeDoPage = () => {
         <div className="absolute bottom-0 left-0 w-0 h-[6px] bg-[#22BDB6] transition-all duration-500 group-hover:w-full" />
 
         <div className="absolute inset-0 flex items-center justify-center">
-          <h3 className="text-[#106A77] text-4xl font-bold shadow-xl text-center group-hover:underline">
+          <h3 className="text-[#106A77] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold shadow-xl text-center group-hover:underline">
             {title}
           </h3>
         </div>
