@@ -42,6 +42,7 @@ const RequestAQuote = () => {
 
     if (!captchaToken) {
       alert('Please verify you are not a robot.');
+      setIsSubmitting(false);
       return;
     }
     setIsSubmitting(true);
@@ -64,6 +65,8 @@ const RequestAQuote = () => {
     } catch (error) {
       console.error('Submit error:', error);
       alert('❌ Network error');
+      } finally {
+    setIsSubmitting(false); // Dừng loading
     }
   };
 
