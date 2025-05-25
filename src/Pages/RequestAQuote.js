@@ -127,7 +127,7 @@ const RequestAQuote = () => {
           className="w-full border bg-gray-100 px-4 py-2 text-sm rounded"
         ></textarea>
 
-        <div className="pt-4">
+        <div className="pt-4 flex justify-center">
           <ReCAPTCHA
             sitekey="6LdnR0ArAAAAAIgTLZPQqDY1bp-aoxhUjgshS1La"
             onChange={handleCaptchaChange}

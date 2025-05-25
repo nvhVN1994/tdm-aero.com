@@ -25,8 +25,7 @@ import HelicopterPage from './Pages/Helicopters';
 import OEMPartnersPage from './Pages/OEMPartnersPage';
 import TradeShowsPage from './Pages/TradeShowsPage';
 import ContactPage from './Pages/ContactPage';
-import FeedbackPage from './Pages/FeedbackPage';
-import PortalPage from './Pages/PortalPage';
+import ESGCommitment from './Pages/ESGCommitment';
 
 import TermsAndConditions from './Pages/TermsAndConditions';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
@@ -67,8 +66,7 @@ function App() {
     <Route path="/oem-partners" element={<OEMPartnersPage />} />
     <Route path="/trade-shows" element={<TradeShowsPage />} />
     <Route path="/contact" element={<ContactPage />} />
-    <Route path="/contact/feedback" element={<FeedbackPage />} />
-    <Route path="/portal" element={<PortalPage />} />
+    <Route path="/ESG-Commitment" element={<ESGCommitment />} />
     <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     <Route path="/request-a-quote" element={<RequestAQuote />} />
