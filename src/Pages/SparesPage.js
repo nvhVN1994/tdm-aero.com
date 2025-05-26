@@ -34,7 +34,7 @@ export default function SparesPage() {
             alt="photoAbout1"
             className="w-full h-full object-cover"
           />
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">SPARES SUPPORT</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed  ">
@@ -48,7 +48,7 @@ export default function SparesPage() {
 
         {/* Section 2: Experience */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">OBSOLETE PARTS SOURCING</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
@@ -77,7 +77,7 @@ If others can’t find it — we usually can.
             alt="photoAbout3"
             className="w-full h-full object-cover"
           />
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">OEM PARTS DISTRIBUTION</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
@@ -91,7 +91,7 @@ If others can’t find it — we usually can.
 
         {/* Section 4: Values */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">PMA PARTS DISTRIBUTION</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
