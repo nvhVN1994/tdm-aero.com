@@ -10,6 +10,10 @@ import Airborne from '../assets/images/OEM/Airborne.png';
 import AEM from '../assets/images/OEM/AEM.png';
 import honeywell from '../assets/images/OEM/honeywell.png';
 import AirborneTec from '../assets/images/OEM/AirborneTec.png';
+import Proponent from '../assets/images/OEM/proponent.png';
+import BreezeEastern from '../assets/images/OEM/BreezeEastern.png';
+import OEM1 from '../assets/images/OEM/OEM1.png';
+import OEM2 from '../assets/images/OEM/OEM2.png';
 
 const OEMPartnersPage = () => {
   return (
@@ -57,9 +61,101 @@ const OEMPartnersPage = () => {
             <img src={AirborneTec} alt="Airborne Technologies" className="w-8 sm:w-12 md:w-16 xl:w-32 2xl:w-52" />
           </a>
           
+          <a href="https://www.proponent.com/" target="_blank" rel="noopener noreferrer"
+            className="absolute top-[30%] left-[75%] transition-transform duration-300 hover:scale-110">
+            <img src={Proponent} alt="Proponent" className="w-8 sm:w-12 md:w-16 xl:w-32 2xl:w-52" />
+          </a>
+
+          <a href="https://www.breeze-eastern.com/" target="_blank" rel="noopener noreferrer"
+            className="absolute top-[50%] left-[15%] transition-transform duration-300 hover:scale-110">
+            <img src={BreezeEastern} alt="Breeze Eastern" className="w-8 sm:w-12 md:w-16 xl:w-32 2xl:w-52" />
+          </a>
+
         </div>
 
-        {/* CTA button */}
+      {/* About Section: History & Experience */}
+<div className="grid grid-cols-1 md:grid-cols-2 gap-0 mt-10">
+  <div>
+    <img
+      src={OEM1}
+      alt="OEM1"
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <div className="bg-[#106A77] text-black p-6 md:p-12 flex items-center">
+    <div>
+      <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">COMMERCIAL</h3>
+      <div className="text-sm xl:text-[18px] leading-relaxed space-y-3 text-black">
+  <p>
+    We are the authorized distributor in Vietnam for some of the world’s most respected aerospace and
+    defense manufacturers, supporting Search & Rescue (SAR) and military aviation operations:
+  </p>
+
+  <ul className="list-disc pl-6 space-y-2">
+    <li>
+      <span className="font-semibold">Luminator Aerospace</span> – High-powered searchlights and landing lights for rotary aircraft (LS-400, ORION series)
+    </li>
+    <li>
+      <span className="font-semibold">AEM Corporation</span> – Loudspeakers and mission-critical communication systems
+    </li>
+    <li>
+      <span className="font-semibold">Airborne Systems</span> – Troop and cargo parachutes, including the MC-6 military parachute
+    </li>
+    <li>
+      <span className="font-semibold">Breeze-Eastern</span> – Helicopter rescue hoists and mission equipment (HS-29900 series)
+    </li>
+  </ul>
+
+  <p>
+    These partners are leaders in their fields, trusted by military and SAR operators worldwide. Through
+    our local expertise and certified distribution, we bring their cutting-edge technologies to the Vietnam
+    market.
+  </p>
+</div>
+    </div>
+  </div>
+
+  <div className="bg-[#106A77] text-black p-6 md:p-12 flex items-center">
+    <div>
+      <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">MILITARY</h3>
+      <div className="text-sm xl:text-[18px] leading-relaxed text-black space-y-4">
+  <p>
+    We are the authorized distributor in Vietnam for some of the world’s most respected aerospace and
+    defense manufacturers, supporting Search & Rescue (SAR) and military aviation operations:
+  </p>
+
+  <ul className="list-disc pl-6 space-y-1">
+    <li>
+      <strong>Luminator Aerospace</strong> – High-powered searchlights and landing lights for rotary aircraft (LS-400, ORION series)
+    </li>
+    <li>
+      <strong>AEM Corporation</strong> – Loudspeakers and mission-critical communication systems
+    </li>
+    <li>
+      <strong>Airborne Systems</strong> – Troop and cargo parachutes, including the MC-6 military parachute
+    </li>
+    <li>
+      <strong>Breeze-Eastern</strong> – Helicopter rescue hoists and mission equipment (HS-29900 series)
+    </li>
+  </ul>
+
+  <p>
+    These partners are leaders in their fields, trusted by military and SAR operators worldwide. Through our
+    local expertise and certified distribution, we bring their cutting-edge technologies to the Vietnam market.
+  </p>
+</div>
+
+    </div>
+  </div>
+  <div>
+    <img
+      src={OEM2} 
+      alt="OEM2"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+  
         
       </main>
 
