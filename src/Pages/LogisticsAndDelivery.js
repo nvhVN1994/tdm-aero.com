@@ -28,7 +28,7 @@ export default function LogisticsAndDeliveryPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           <img
             src={Lo1}
-            alt="photoAbout1"
+            alt="Lo1"
             className="w-full h-full object-cover"
           />
           <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
@@ -58,7 +58,7 @@ export default function LogisticsAndDeliveryPage() {
           </div>
           <img
             src={Lo2}
-            alt="photoAbout2"
+            alt="Lo2"
             className="w-full h-full object-cover"
           />
         </div>
@@ -68,7 +68,7 @@ export default function LogisticsAndDeliveryPage() {
           
           <img
             src={Lo3}  
-            alt="photoAbout3"
+            alt="Lo3"
             className="w-full h-full object-cover"
           />
           <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
@@ -98,7 +98,7 @@ they’re needed — no delays, no compliance issues.
           </div>
           <img
             src={Lo4}
-            alt="photoAbout4"
+            alt="Lo4"
             className="w-full h-full object-cover"
           />
         </div>

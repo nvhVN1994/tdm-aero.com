@@ -30,7 +30,7 @@ export default function SolutionsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           <img
             src={So1}
-            alt="photoAbout1"
+            alt="So1"
             className="w-full h-full object-cover"
           />
           <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
@@ -59,7 +59,7 @@ export default function SolutionsPage() {
           </div>
           <img
             src={So2}
-            alt="photoAbout2"
+            alt="So2"
             className="w-full h-full object-cover"
           />
         </div>
@@ -69,7 +69,7 @@ export default function SolutionsPage() {
           
           <img
             src={So3}  
-            alt="photoAbout3"
+            alt="So3"
             className="w-full h-full object-cover"
           />
           <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
@@ -97,7 +97,7 @@ export default function SolutionsPage() {
           </div>
           <img
             src={So4}
-            alt="photoAbout4"
+            alt="So4"
             className="w-full h-full object-cover"
           />
         </div>

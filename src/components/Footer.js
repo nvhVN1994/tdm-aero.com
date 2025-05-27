@@ -97,7 +97,7 @@ export default function Footer() {
         
     <div className="border-t-2 border-white mt-8 pt-4 text-xs flex text-white  gap-2 "> 
      <p className="leading-relaxed">
-        Copyright © 2025 TDM TRADING & INVESTMENT JSC
+        Copyright © 2025 TDM JOINT STOCK COMPANY
      </p>
     <div className="flex space-x-6 ml-auto">
     <Link to="/terms" className="hover:underline hover:text-[#22BDB6]">

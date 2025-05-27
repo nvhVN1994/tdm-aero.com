@@ -2,6 +2,8 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import Qu1 from '../assets/images/About/Quality/Qu1.png';
+import Qu2 from '../assets/images/About/Quality/Qu2.png';
+import Qu3 from '../assets/images/About/Quality/Qu3.png';
 
 export default function QualityPage() {
   return (
@@ -29,7 +31,7 @@ export default function QualityPage() {
             alt="photoAbout1"
             className="w-full h-full object-cover"
           />
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">CERTIFICATIONS & TRACEABILITY</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed  ">
@@ -43,7 +45,7 @@ export default function QualityPage() {
 
         {/* Section 2: Experience */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">OPERATIONAL STANDARDS</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
@@ -54,7 +56,7 @@ export default function QualityPage() {
             </div>
           </div>
           <img
-            src={Qu1}
+            src={Qu2}
             alt="photoAbout2"
             className="w-full h-full object-cover"
           />
@@ -64,11 +66,11 @@ export default function QualityPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           
           <img
-            src={Qu1}  
+            src={Qu3}  
             alt="photoAbout3"
             className="w-full h-full object-cover"
           />
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">AEROSPACE PACKAGING COMPLIANCE</h3>
               <div className="text-sm xl:text-[18px] leading-relaxed space-y-2">

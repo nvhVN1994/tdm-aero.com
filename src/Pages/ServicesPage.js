@@ -27,7 +27,7 @@ export default function ServicesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
           <img
             src={Se1}
-            alt="photoAbout1"
+            alt="Se1"
             className="w-full h-full object-cover"
           />
           <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
@@ -63,7 +63,7 @@ export default function ServicesPage() {
           </div>
           <img
             src={Se2}
-            alt="photoAbout2"
+            alt="Se2"
             className="w-full h-full object-cover"
           />
         </div>
