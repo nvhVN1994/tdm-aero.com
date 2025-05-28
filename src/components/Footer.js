@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Address */}
       
   <div>
-      <h3 className="text-[#22BDB6] mb-3 uppercase font-bold">Global Headquarters</h3>
+      <h3 className="text-[#22BDB6] mb-3 uppercase font-bold">Headquarter</h3>
       <p className="font-bold text-white mb-2">TDM GROUP</p>
 
       <div className="text-white text-sm flex items-center gap-2 mb-1">
@@ -47,7 +47,7 @@ export default function Footer() {
 
 {/* Office locations */}
       <div className="mt-0">
-        <h4 className="text-[#22BDB6] uppercase font-bold mb-2">Offices In</h4>
+        <h4 className="text-[#22BDB6] uppercase font-bold mb-2">Global Offices</h4>
         <div className="flex flex-wrap gap-4 text-sm">
           <span>VIET NAM</span>
           <span>AUSTRALIA</span>
