@@ -31,7 +31,7 @@ export default function LogisticsAndDeliveryPage() {
             alt="Lo1"
             className="w-full h-full object-cover"
           />
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">LOGISTICS SUPPORT</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed  ">
@@ -45,7 +45,7 @@ export default function LogisticsAndDeliveryPage() {
 
         {/* Section 2: Experience */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">CUSTOMS HANDLING & IMPORT/EXPORT</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
@@ -71,7 +71,7 @@ export default function LogisticsAndDeliveryPage() {
             alt="Lo3"
             className="w-full h-full object-cover"
           />
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">EXPORT PERMIT APPLICATIONS</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
@@ -84,7 +84,7 @@ export default function LogisticsAndDeliveryPage() {
 
         {/* Section 4: Values */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="bg-[#006D76] text-white p-6 md:p-12 flex items-center">
+          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
             <div>
               <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">DELIVERY TO DOOR</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed">
