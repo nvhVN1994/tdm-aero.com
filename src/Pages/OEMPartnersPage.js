@@ -87,29 +87,28 @@ const OEMPartnersPage = () => {
       <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">COMMERCIAL</h3>
       <div className="text-sm xl:text-[18px] leading-relaxed space-y-3 text-black">
   <p>
-    We are the authorized distributor in Vietnam for some of the world’s most respected aerospace and
-    defense manufacturers, supporting Search & Rescue (SAR) and military aviation operations:
+    TDM Aero partners with a broad network of certified suppliers and OEM-approved providers to serve commercial airlines, MROs, private operators, and 
+    regional carriers. Our portfolio includes:
   </p>
 
   <ul className="list-disc pl-6 space-y-2">
     <li>
-      <span className="font-semibold">Luminator Aerospace</span> – High-powered searchlights and landing lights for rotary aircraft (LS-400, ORION series)
+      <strong>Engine shops</strong> – Authorized distributors for engine component support and overhaul
     </li>
     <li>
-      <span className="font-semibold">AEM Corporation</span> – Loudspeakers and mission-critical communication systems
+      <strong>Component and spares manufacturers</strong> – Covering airframe, avionics, cabin, and ground support equipment
     </li>
     <li>
-      <span className="font-semibold">Airborne Systems</span> – Troop and cargo parachutes, including the MC-6 military parachute
+      <strong>Consumables and chemicals</strong> – Cleaning agents, lubricants, sealants, and maintenance products used in daily operations
     </li>
     <li>
-      <span className="font-semibold">Breeze-Eastern</span> – Helicopter rescue hoists and mission equipment (HS-29900 series)
+      <strong>Global parts suppliers</strong> – For Airbus, Boeing, Embraer, Bombardier, ATR, and more
     </li>
   </ul>
 
   <p>
-    These partners are leaders in their fields, trusted by military and SAR operators worldwide. Through
-    our local expertise and certified distribution, we bring their cutting-edge technologies to the Vietnam
-    market.
+    With a focus on quality, traceability, and fast turnaround, our commercial partnerships ensure that we can meet the diverse 
+    operational needs of modern aviation.
   </p>
 </div>
     </div>

@@ -65,7 +65,7 @@ export default function NavBar() {
         </div>
 
         {/* Others */}
-        <Link to="/oem-partners" className="px-1 py-1 2xl:px-3 2xl:py-2 hover:bg-[#22BDB6]">OEM PARTNERS</Link>
+        <Link to="/partners" className="px-1 py-1 2xl:px-3 2xl:py-2 hover:bg-[#22BDB6]">PARTNERS</Link>
         <Link to="/trade-shows" className="px-1 py-1 2xl:px-3 2xl:py-2 hover:bg-[#22BDB6]">TRADE SHOWS</Link>
 
         {/* CONTACT */}

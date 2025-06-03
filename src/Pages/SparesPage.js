@@ -1,9 +1,9 @@
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
-import Sp1 from '../assets/images/WhatWeDo/Spares/Sp1.png';
-import Sp2 from '../assets/images/WhatWeDo/Spares/Sp2.png';
-import Sp3 from '../assets/images/WhatWeDo/Spares/Sp3.png';
+import Sp1 from '../assets/images/WhatWeDo/Spares/Sp1.jpg';
+import Sp2 from '../assets/images/WhatWeDo/Spares/Sp2.jpg';
+import Sp3 from '../assets/images/WhatWeDo/Spares/Sp3.jpg';
 import Sp4 from '../assets/images/WhatWeDo/Spares/Sp4.png';
 
 export default function SparesPage() {

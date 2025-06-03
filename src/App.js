@@ -61,7 +61,7 @@ function App() {
     
     
     {/* OTHER ROUTES */}
-    <Route path="/oem-partners" element={<OEMPartnersPage />} />
+    <Route path="/partners" element={<OEMPartnersPage />} />
     <Route path="/trade-shows" element={<TradeShowsPage />} />
     <Route path="/contact" element={<ContactPage />} />
     <Route path="/ESG-Commitment" element={<ESGCommitment />} />
