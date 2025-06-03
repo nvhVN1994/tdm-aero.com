@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Sp1 from '../assets/images/WhatWeDo/Spares/Sp1.jpg';
 import Sp2 from '../assets/images/WhatWeDo/Spares/Sp2.jpg';
 import Sp3 from '../assets/images/WhatWeDo/Spares/Sp3.jpg';
-import Sp4 from '../assets/images/WhatWeDo/Spares/Sp4.png';
+import Sp4 from '../assets/images/WhatWeDo/Spares/Sp4.jpg';
 
 export default function SparesPage() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import Lo1 from '../assets/images/WhatWeDo/Lo/Lo1.png';
-import Lo2 from '../assets/images/WhatWeDo/Lo/Lo2.png';
+import Lo2 from '../assets/images/WhatWeDo/Lo/Lo2.jpg';
 import Lo3 from '../assets/images/WhatWeDo/Lo/Lo3.png';
 import Lo4 from '../assets/images/WhatWeDo/Lo/Lo4.png';
 

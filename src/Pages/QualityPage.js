@@ -3,7 +3,7 @@ import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import Qu1 from '../assets/images/About/Quality/Qu1.png';
 import Qu2 from '../assets/images/About/Quality/Qu2.png';
-import Qu3 from '../assets/images/About/Quality/Qu3.png';
+import Qu3 from '../assets/images/About/Quality/Qu3.jpg';
 
 export default function QualityPage() {
   return (

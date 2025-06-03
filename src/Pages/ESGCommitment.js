@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import ESG1 from '../assets/images/ESG/ESG1.png';
 import ESG2 from '../assets/images/ESG/ESG2.png';
 import ESG3 from '../assets/images/ESG/ESG3.png';
-import ESG4 from '../assets/images/ESG/ESG4.png';
+import ESG4 from '../assets/images/ESG/ESG4.jpg';
 
 export default function SparesPage() {
   return (
