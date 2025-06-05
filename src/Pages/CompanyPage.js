@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import About1 from '../assets/images/About/About1.jpg';
-import About2 from '../assets/images/About/About2.JPG';
+import About2 from '../assets/images/About/About2.jpg';
 import MapChart from '../assets/images/About/MapChart.png';
 import About3 from '../assets/images/About/About3.jpg';
 import About4 from '../assets/images/About/About4.jpg';
