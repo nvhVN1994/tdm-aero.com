@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import So1 from '../assets/images/WhatWeDo/Solution/So1.png';
-import So2 from '../assets/images/WhatWeDo/Solution/So2.png';
+import So2 from '../assets/images/WhatWeDo/Solution/So2.jpg';
 import So3 from '../assets/images/WhatWeDo/Solution/So3.png';
 import So4 from '../assets/images/WhatWeDo/Solution/So4.png';
 

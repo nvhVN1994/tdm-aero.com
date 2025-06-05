@@ -22,7 +22,7 @@ export default function SparesPage() {
   <p className="max-w-5xl mx-auto text-xl font-medium sm:text-base leading-relaxed mt-4">
    TDM Aero core business strategy revolves around offering our customers high-quality spare parts at a competitive price. 
    All spares are accompanied by full documentation and world-class customer support throughout the entire purchasing experience and beyond.
-    S3 carries the expertise, relevant networks, technical knowledge, and reach required to provide comprehensive spare part solutions 
+    TDM carries the expertise, relevant networks, technical knowledge, and reach required to provide comprehensive spare part solutions 
     to military operators, maintenance facilities, repair stations, and numerous brokers and distributors around the world.
   </p>
 </div>
