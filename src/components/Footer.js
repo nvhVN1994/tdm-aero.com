@@ -29,7 +29,7 @@ export default function Footer() {
         <FaMapMarkerAlt className="text-white mt-1" />
         <span>
           Lot DL1 - Cell no 28, Hung Vuong, Tien Chau,<br />
-          Phuc Yen, Vinh Phuc 100000
+          Phuc Yen, Vinh Phuc 280000
         </span>
       </div>
       <div className="text-white text-sm flex items-start gap-2">
