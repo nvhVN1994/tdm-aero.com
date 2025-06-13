@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import ESG1 from '../assets/images/ESG/ESG1.png';
-import ESG2 from '../assets/images/ESG/ESG2.png';
+import ESG2 from '../assets/images/ESG/ESG2.jpg';
 import ESG3 from '../assets/images/ESG/ESG3.png';
 import ESG4 from '../assets/images/ESG/ESG4.jpg';
 

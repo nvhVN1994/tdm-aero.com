@@ -23,7 +23,7 @@ const OEMPartnersPage = () => {
 
         {/* Map and Logos */}
         <div className="relative w-full overflow-hidden">
-          <img src={worldMap} alt="World Map" className="w-full h-auto" />
+          <img src={worldMap} alt="World Map" className="w-full h-auto"  />
 
           {/* Logos */}
           <a href="https://www.luminator.com" target="_blank" rel="noopener noreferrer"

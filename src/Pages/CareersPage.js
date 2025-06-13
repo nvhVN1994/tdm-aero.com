@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import Ca1 from '../assets/images/About/Career/Ca1.png';
-import Ca2 from '../assets/images/About/Career/Ca2.png';
+import Ca2 from '../assets/images/About/Career/Ca2.jpg';
 
 
 export default function QualityPage() {
@@ -58,12 +58,12 @@ mission-critical solutions. Every role at TDM Aero plays a part in keeping aircr
   Email us at:{' '}
   <span
     onClick={() => {
-      navigator.clipboard.writeText("careers@tdmgroup.vn");
-      alert("Copied: careers@tdmgroup.vn");
+      navigator.clipboard.writeText("info@tdmgroup.vn");
+      alert("Copied: info@tdmgroup.vn");
     }}
     className="cursor-pointer text-black hover:underline"
   >
-    careers@tdmgroup.vn
+    info@tdmgroup.vn
   </span>
 </p>
 

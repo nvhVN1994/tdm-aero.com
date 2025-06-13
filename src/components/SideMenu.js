@@ -35,7 +35,6 @@ const SideMenu = ({ isOpen, onClose }) => {
             {openMenu === 'about' && (
               <ul className="ml-3 mt-3 space-y-2">
                 <li><Link to="/about/company" onClick={onClose}>- Company</Link></li>
-                <li><Link to="/about/leadership" onClick={onClose}>- Executive Leadership</Link></li>
                 <li><Link to="/about/quality" onClick={onClose}>- Quality & Compliance</Link></li>
                 <li><Link to="/about/news" onClick={onClose}>- News</Link></li>
                 <li><Link to="/about/careers" onClick={onClose}>- Careers</Link></li>
@@ -53,6 +52,7 @@ const SideMenu = ({ isOpen, onClose }) => {
                 <li><Link to="/what-we-do/spares" onClick={onClose}>- Spares</Link></li>
                 <li><Link to="/what-we-do/services" onClick={onClose}>- Services</Link></li>
                 <li><Link to="/what-we-do/solutions" onClick={onClose}>- Solutions</Link></li>
+                <li><Link to="/what-we-do/logistics-and-delivery" onClick={onClose}>- Logistics & Delivery</Link></li>
               </ul>
             )}
           </div>
@@ -64,18 +64,18 @@ const SideMenu = ({ isOpen, onClose }) => {
             </button>
             {openMenu === 'platforms' && (
               <ul className="ml-3 mt-3 space-y-2">
-                <li><Link to="/platforms/fighter" onClick={onClose}>- Fighter</Link></li>
-                <li><Link to="/platforms/transport" onClick={onClose}>- Transport</Link></li>
-                <li><Link to="/platforms/patrol" onClick={onClose}>- Patrol</Link></li>
-                <li><Link to="/platforms/rotorcraft" onClick={onClose}>- Rotorcraft</Link></li>
+                <li><Link to="/platforms/civil" onClick={onClose}>- Civil</Link></li>
+                <li><Link to="/platforms/military" onClick={onClose}>- Military</Link></li>
+                <li><Link to="/platforms/mission-trainer-and-patrol" onClick={onClose}>- Mission Trainer & Patrol</Link></li>
+                <li><Link to="/platforms/helicopters" onClick={onClose}>- Helicopters</Link></li>
               </ul>
             )}
           </div>
 
           {/* OEM PARTNERS */}
           <div>
-            <Link to="/oem-partners" onClick={onClose} className="text-[#22BDB6] font-semibold block">
-              OEM PARTNERS
+            <Link to="/partners" onClick={onClose} className="text-[#22BDB6] font-semibold block">
+              PARTNERS
             </Link>
           </div>
 
@@ -88,20 +88,15 @@ const SideMenu = ({ isOpen, onClose }) => {
 
           {/* CONTACT */}
           <div>
-            <button onClick={() => toggleSubMenu('contact')} className="flex justify-between w-full text-left text-[#22BDB6] font-semibold">
-              CONTACT US {openMenu === 'contact' ? <ChevronUp size={20} /> : <ChevronDown size={18} />}
-            </button>
-            {openMenu === 'contact' && (
-              <ul className="ml-3 mt-3 space-y-2">
-                <li><Link to="/contact/feedback" onClick={onClose}>- Feedback</Link></li>
-              </ul>
-            )}
+            <Link to="/contact" onClick={onClose} className="text-[#22BDB6] font-semibold block">
+              CONTACT US
+            </Link>
           </div>
 
           {/* CUSTOMER PORTAL */}
           <div>
-            <Link to="/portal" onClick={onClose} className="text-[#22BDB6] font-semibold block">
-              CUSTOMER PORTAL
+            <Link to="/ESG-Commitment" onClick={onClose} className="text-[#22BDB6] font-semibold block">
+              ESG COMMITMENT
             </Link>
           </div>
         </div>
