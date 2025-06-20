@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 // Pages
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
-import CompanyPage from './Pages/CompanyPage';
+import OurCoreValues from './Pages/OurCoreValues';
 import QualityPage from './Pages/QualityPage';
 import NewsPage from './Pages/NewsPage';
 import CareersPage from './Pages/CareersPage';
@@ -40,7 +40,7 @@ function App() {
 
     {/* ABOUT */}
     <Route path="/about" element={<AboutPage />} />
-    <Route path="/about/company" element={<CompanyPage />} />
+    <Route path="/about/our-core-values" element={<OurCoreValues />} />
     <Route path="/about/quality" element={<QualityPage />} />
     <Route path="/about/news" element={<NewsPage />} />
     <Route path="/about/careers" element={<CareersPage />} />

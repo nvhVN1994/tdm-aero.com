@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
 import Se1 from '../assets/images/WhatWeDo/Ser/Se1.jpg';
-import Se2 from '../assets/images/WhatWeDo/Ser/Se2.png';
+import Se2 from '../assets/images/WhatWeDo/Ser/Se2.jpg';
 
 export default function ServicesPage() {
   return (

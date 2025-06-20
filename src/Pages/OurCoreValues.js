@@ -6,7 +6,7 @@ import About2 from '../assets/images/About/About2.jpg';
 import MapChart from '../assets/images/About/MapChart.png';
 import About3 from '../assets/images/About/About3.jpg';
 import About4 from '../assets/images/About/About4.jpg';
-export default function CompanyPage() {
+export default function OurCoreValues() {
   return (
     <div className="min-h-screen bg-white text-black font-['Roboto_Condensed']">
       
@@ -27,7 +27,7 @@ export default function CompanyPage() {
           />
           <div className="bg-[#106A77] text-black p-6 md:p-12 flex items-center">
             <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">HISTORY</h3>
+              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">FOUNDATION</h3>
               <p className="text-sm xl:text-[18px] leading-relaxed  ">
                 Founded in 2016, TDM Aero is a trusted partner in the aerospace
                 industry, providing comprehensive support solutions for
