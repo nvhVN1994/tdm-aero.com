@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 // Pages
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
+import CompanyHistory from './Pages/CompanyHistory';  
 import OurCoreValues from './Pages/OurCoreValues';
 import QualityPage from './Pages/QualityPage';
 import NewsPage from './Pages/NewsPage';
@@ -40,6 +41,7 @@ function App() {
 
     {/* ABOUT */}
     <Route path="/about" element={<AboutPage />} />
+    <Route path="/about/company-history" element={<CompanyHistory />} />
     <Route path="/about/our-core-values" element={<OurCoreValues />} />
     <Route path="/about/quality" element={<QualityPage />} />
     <Route path="/about/news" element={<NewsPage />} />
