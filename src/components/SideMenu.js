@@ -34,6 +34,7 @@ const SideMenu = ({ isOpen, onClose }) => {
             </button>
             {openMenu === 'about' && (
               <ul className="ml-3 mt-3 space-y-2">
+                <li><Link to="/about/company-history" onClick={onClose}>- Company History</Link></li>
                 <li><Link to="/about/our-core-values" onClick={onClose}>- Our core values</Link></li>
                 <li><Link to="/about/quality" onClick={onClose}>- Quality & Compliance</Link></li>
                 <li><Link to="/about/news" onClick={onClose}>- News</Link></li>
