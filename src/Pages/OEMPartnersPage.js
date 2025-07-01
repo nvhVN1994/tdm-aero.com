@@ -12,7 +12,7 @@ import honeywell from '../assets/images/OEM/honeywell.png';
 import AirborneTec from '../assets/images/OEM/AirborneTec.png';
 import Proponent from '../assets/images/OEM/proponent.png';
 import BreezeEastern from '../assets/images/OEM/BreezeEastern.png';
-import OEM1 from '../assets/images/OEM/OEM1.jpg';
+import OEM1 from '../assets/images/OEM/OEM1.png';
 import OEM2 from '../assets/images/OEM/OEM2.png';
 
 const OEMPartnersPage = () => {
