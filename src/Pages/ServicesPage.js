@@ -19,7 +19,7 @@ export default function ServicesPage() {
 
   <p className="max-w-5xl mx-auto text-xl font-medium sm:text-base leading-relaxed mt-4">
    TDM Aero’s in-house repair shop specializes in the repair and overhaul of today’s modern military aircraft components.
-    Our extensive knowledge enables S3 to provide solutions that allow our customers to keep operational costs low, maintain reliability and fleet commonality.
+    Our extensive knowledge enables TDM to provide solutions that allow our customers to keep operational costs low, maintain reliability and fleet commonality.
   </p>
 </div>
 
