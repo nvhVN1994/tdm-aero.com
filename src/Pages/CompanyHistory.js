@@ -1,9 +1,9 @@
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
-import His1 from '../assets/images/About/History/His1.jpg';
+import His1 from '../assets/images/About/History/His1.png';
 import His2 from '../assets/images/About/History/His2.jpg';
-import His3 from '../assets/images/About/History/His3.jpg';
+import His3 from '../assets/images/About/History/His3.png';
 
 export default function CompanyHistory() {
   return (
