@@ -12,6 +12,7 @@ import honeywell from '../assets/images/OEM/honeywell.png';
 import AirborneTec from '../assets/images/OEM/AirborneTec.png';
 import Proponent from '../assets/images/OEM/proponent.png';
 import BreezeEastern from '../assets/images/OEM/BreezeEastern.png';
+import Safariland from '../assets/images/OEM/Safariland.png';
 import OEM1 from '../assets/images/OEM/OEM1.png';
 import OEM2 from '../assets/images/OEM/OEM2.png';
 
@@ -69,6 +70,11 @@ const OEMPartnersPage = () => {
           <a href="https://www.breeze-eastern.com/" target="_blank" rel="noopener noreferrer"
             className="absolute top-[50%] left-[15%] transition-transform duration-300 hover:scale-110">
             <img src={BreezeEastern} alt="Breeze Eastern" className="w-8 sm:w-12 md:w-16 xl:w-32 2xl:w-52" />
+          </a>
+
+          <a href="https://www.safariland.com/" target="_blank" rel="noopener noreferrer"
+            className="absolute top-[50%] left-[15%] transition-transform duration-300 hover:scale-110">
+            <img src={Safariland} alt="Safariland" className="w-8 sm:w-12 md:w-16 xl:w-32 2xl:w-52" />
           </a>
 
         </div>
