@@ -1,116 +1,72 @@
-import React from 'react';
-import Breadcrumb from '../components/Breadcrumb';
 import Footer from '../components/Footer';
-import Sp1 from '../assets/images/WhatWeDo/Spares/Sp1.jpg';
-import Sp2 from '../assets/images/WhatWeDo/Spares/Sp2.png';
-import Sp3 from '../assets/images/WhatWeDo/Spares/Sp3.jpg';
-import Sp4 from '../assets/images/WhatWeDo/Spares/Sp4.jpg';
+import { Link } from 'react-router-dom';
+import Breadcrumb from '../components/Breadcrumb';
+import Ts1 from '../assets/images/TradeShows/Ts1.jpg';
+import Ts2 from '../assets/images/TradeShows/Ts2.jpg';
+import Ts3 from '../assets/images/TradeShows/Ts3.jpg';
+import Ts4 from '../assets/images/TradeShows/Ts4.jpg';
 
-export default function SparesPage() {
+const PlatformsPage = () => {
+  const PlatformsItems = [
+    { title: "AIRSHOWS", to: "/platforms/civil", img: Ts1 },
+    { title: "AIRSHOWS", to: "/platforms/military", img: Ts2 },
+    { title: "AIRSHOWS", to: "/platforms/mission-trainer-and-patrol", img: Ts3 },
+    { title: "AIRSHOWS", to: "/platforms/helicopters", img: Ts4 },
+  ];
+
   return (
     <div className="min-h-screen bg-white text-black font-['Roboto_Condensed']">
-     
-
-      <main className="pt-[115px]"> {/* Giữ khoảng cách với NavBar fixed */}
+      <main className="pt-[115px]">
         <Breadcrumb />
 
-        <div className="bg-white text-center py-8 px-4 text-black">
+        {/* Header Section */}
+        <div className="bg-[#106A77] text-center py-8 px-4 text-black">
   <h1 className="text-2xl sm:text-3xl lg:text-4xl font-medium uppercase mb-2">
-    TRADE SHOWS
+    TRADESHOWS
   </h1>
 
   <p className="max-w-5xl mx-auto text-xl font-medium sm:text-base leading-relaxed mt-4">
-   We believe that the best partnerships are built face-to-face. That’s why we proudly  
-   participate in leading trade shows and industry events around the world — not just to
-   showcase what we do, but to meet the people we serve. These moments give us the chance  
-   to understand your needs firsthand, strengthen relationships, and explore new ways we can support your mission.
+    We believe that the best partnerships are built face-to-face. That’s why we proudly 
+    participate in leading trade shows and industry events around the world — not just to
+    showcase what we do, but to meet the people we serve. These moments give us the chance 
+    to understand your needs firsthand, strengthen relationships, and explore new ways we can support your mission.
   </p>
 </div>
+        
+        {/* Content Section */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 sm:px-32 py-10">
+  {PlatformsItems.map(({ title, to, img }) => (
+    <Link
+      to={to}
+      key={title}
+      className="group relative overflow-hidden rounded shadow transition-transform duration-500"
+    >
+      <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] lg:h-[300px] overflow-hidden">
+        <img
+          src={img}
+          alt={title}
+          className="w-full h-full object-cover grayscale group-hover:grayscale-0 scale-100 group-hover:scale-110 transition-transform duration-500"
+        />
 
-        {/* Section 1: History */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <img
-            src={Sp1}
-            alt="photoAbout1"
-            className="w-full h-full object-cover"
-          />
-          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
-            <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">SPARES SUPPORT</h3>
-              <p className="text-sm xl:text-[18px] leading-relaxed  ">
-                TDM Aero specializes in the global sourcing and distribution of high-quality aerospace parts, supporting commercial,
-                 business, and military aviation fleets with speed, accuracy, and reliability. With a strong network of OEMs, MROs, 
-                 and trusted supply chain partners, we ensure your aircraft stay mission-ready and operational at all times.
-              </p>
-            </div>
-          </div>
-        </div>
+        <div className="absolute top-0 left-0 w-0 h-[6px] bg-[#22BDB6] transition-all duration-500 group-hover:w-full" />
+        <div className="absolute bottom-0 left-0 w-0 h-[6px] bg-[#22BDB6] transition-all duration-500 group-hover:w-full" />
 
-        {/* Section 2: Experience */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
-            <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">OBSOLETE PARTS SOURCING</h3>
-              <p className="text-sm xl:text-[18px] leading-relaxed">
-                In today’s global environment, trade restrictions, supply chain disruptions, and post-COVID impacts have made locating
-                 hard-to-find and obsolete parts even more challenging. Therefore, TDM Aero helps operators extend the life of legacy 
-                 aircraft and systems by locating critical components that are no longer in regular production. We ensure all sourced 
-                 parts are fully certified with proper traceability and compliance to FAA, EASA, or OEM standards, by leveraging our 
-                 global supplier network and technical expertise.
-If others can’t find it — we usually can.
+       <div className="absolute inset-0 flex items-center justify-center">
+          <h3 className="text-[#106A77] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold shadow-xl text-center group-hover:underline">
+          {title}
+        </h3>
+      </div>
 
-              </p>
-            </div>
-          </div>
-          <img
-            src={Sp2}
-            alt="photoAbout2"
-            className="w-full h-full object-cover"
-          />
-        </div>
-
-                {/* Section 3: Mission */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          
-          <img
-            src={Sp3}  
-            alt="photoAbout3"
-            className="w-full h-full object-cover"
-          />
-          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
-            <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">OEM PARTS DISTRIBUTION</h3>
-              <p className="text-sm xl:text-[18px] leading-relaxed">
-                TDM Aero partners directly with Original Equipment Manufacturers to supply certified, factory-new components. 
-                Our distribution agreements allow us to deliver authentic parts with full traceability and technical support — 
-                ensuring safety, compliance, and peace of mind for your operations.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Section 4: Values */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="bg-[#006D76] text-black p-6 md:p-12 flex items-center">
-            <div>
-              <h3 className="text-lg font-semibold mb-2 xl:text-[22px] xl:font-bold xl:mb-4">PMA PARTS DISTRIBUTION</h3>
-              <p className="text-sm xl:text-[18px] leading-relaxed">
-                As part of our cost-effective support solutions, we offer FAA- and EASA-approved PMA (Parts Manufacturer Approval) alternatives. 
-                These parts meet rigorous quality standards and offer significant savings without compromising performance, making them a smart 
-                choice for many operators seeking long-term value.
-              </p>
-            </div>
-          </div>
-          <img
-            src={Sp4}
-            alt="photoAbout4"
-            className="w-full h-full object-cover"
-          />
-        </div>
-
-       
+      </div>
+    </Link>
+  ))}
+</div>
       </main>
+
+      {/* Footer */}
       <Footer />
     </div>
   );
-}
+};
+
+export default PlatformsPage;
