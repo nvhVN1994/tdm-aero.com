@@ -7,7 +7,7 @@ import AboutPage from './Pages/AboutPage';
 import CompanyHistory from './Pages/CompanyHistory';  
 import OurCoreValues from './Pages/OurCoreValues';
 import QualityPage from './Pages/QualityPage';
-import NewsPage from './Pages/NewsPage';
+import GlobalOfficesPage from './Pages/GlobalOfficesPage';
 import CareersPage from './Pages/CareersPage';
 
 import WhatWeDoPage from './Pages/WhatWeDoPage';
@@ -44,7 +44,7 @@ function App() {
     <Route path="/about/company-history" element={<CompanyHistory />} />
     <Route path="/about/our-core-values" element={<OurCoreValues />} />
     <Route path="/about/quality" element={<QualityPage />} />
-    <Route path="/about/news" element={<NewsPage />} />
+    <Route path="/about/Global-Offices" element={<GlobalOfficesPage />} />
     <Route path="/about/careers" element={<CareersPage />} />
 
     {/* WHAT WE DO */}
