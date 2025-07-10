@@ -73,8 +73,8 @@ const OEMPartnersPage = () => {
           </a>
 
           <a href="https://www.safariland.com/" target="_blank" rel="noopener noreferrer"
-            className="absolute top-[50%] left-[15%] transition-transform duration-300 hover:scale-110">
-            <img src={Safariland} alt="Safariland" className="w-8 sm:w-12 md:w-16 xl:w-32 2xl:w-52" />
+            className="absolute top-[50%] left-[35%] transition-transform duration-300 hover:scale-110">
+            <img src={Safariland} alt="Safariland" className="w-8 sm:w-14 md:w-18 xl:w-34 2xl:w-52" />
           </a>
 
         </div>
