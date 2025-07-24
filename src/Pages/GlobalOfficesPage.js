@@ -20,7 +20,7 @@ export default function GlobalOfficesPage() {
         <div className="bg-white text-center px-4 py-1"></div>
             NEW ZEALAND: Brett Waghorn +64 274 798 096/ brett@tdmgroup.vn
         <div className="bg-white text-center px-4 py-1"></div>
-            AUSTRLIA: Chloe Nguyen +61 423 488 044/ chloe@tdmgroup.vn 
+            AUSTRALIA: Chloe Nguyen +61 423 488 044/ chloe@tdmgroup.vn 
         <div className="bg-white text-center px-4 py-1"></div>
             MALAYSIA: Buvanesan Tamil Selvam +60 13 777 6870/ buvan@tdmgroup.vn
         <div className="bg-white text-center px-4 py-1"></div>
