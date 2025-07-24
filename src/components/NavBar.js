@@ -78,15 +78,6 @@ export default function NavBar() {
         <Link to="/ESG-Commitment" className="px-1 py-1 2xl:px-3 2xl:py-2 hover:bg-[#22BDB6]">ESG COMMITMENT</Link>
       </nav>
 
-      {/* Search + Hamburger */}
-      <div className="relative">
-      <div className="ml-6 flex items-center gap-4">
-        <FaSearch className="text-black text-xl hover:text-[#22BDB6] cursor-pointer" />
-        <FaBars
-          className="text-black text-xl hover:text-[#22BDB6] cursor-pointer"
-          onClick={() => setIsMenuOpen(true)}
-        />
-      </div>
 
       {/* SideMenu hiển thị khi mở */}
       <SideMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
