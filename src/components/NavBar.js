@@ -37,7 +37,7 @@ export default function NavBar() {
             <Link to="/about/company-history" className="block px-2 py-1 hover:bg-[#C0BFC0]">COMPANY HISTORY</Link>
             <Link to="/about/our-core-values" className="block px-2 py-1 hover:bg-[#C0BFC0]">OUR CORE VALUES</Link>
             <Link to="/about/quality" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">QUALITY & COMPLIANCE</Link>
-            <Link to="/about/news" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">NEWS</Link>
+            <Link to="/about/global-offices" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">GLOBAL OFFICES</Link>
             <Link to="/about/careers" className="block px-2 py-1 border-t hover:bg-[#C0BFC0]">CAREERS</Link>
           </div>
         </div>
